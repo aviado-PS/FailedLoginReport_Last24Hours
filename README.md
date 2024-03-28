@@ -16,11 +16,10 @@ This PowerShell script is crafted to assist system administrators in monitoring 
 - Exchange Management PowerShell SnapIn must be installed.
 - Administrative privileges are required to run this script effectively.
 - Ensure the `$csvDirectoryPath` and `$csvFilePath` variables are adjusted according to your needs.
-
-## Usage
-
-To generate a report of failed login attempts for the last 24 hours, navigate to the script's directory and execute:
 ## Author
 This script was authored by [aviado1](https://github.com/aviado1).
+## Usage
+To generate a report of failed login attempts for the last 24 hours, navigate to the script's directory and execute:
+
 ```powershell
 .\FailedLoginReport_Last24Hours.ps1
